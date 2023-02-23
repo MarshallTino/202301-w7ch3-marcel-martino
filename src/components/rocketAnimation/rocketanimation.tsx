@@ -17,11 +17,6 @@ const RocketAnimation: React.FC = () => {
             alt="spacex"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/280px-Flag_of_the_United_States_%28Pantone%29.svg.png"
           />
-          <img
-            className="spacex"
-            alt="spacex"
-            src="http://i67.tinypic.com/24q6a0k.png"
-          />
         </div>
         <div className="prop"></div>
 

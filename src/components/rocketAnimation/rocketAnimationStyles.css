@@ -12,8 +12,9 @@ body {
 #container {
   margin: auto;
   position: relative;
-  width: 750px;
-  height: 750px;
+  width: 600px;
+  top: 55px;
+  height: 600px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 0 10px #f5f5f5, 0px 20px 70px -15px rgba(0, 0, 0, 0.55),

@@ -35,10 +35,13 @@ const Timer: React.FC = () => {
   return (
     <div className="rocket-launch">
       {launching ? (
-        <RocketAnimation />
+        <>
+          <button onClick={handleReset}>Reset</button>
+          <RocketAnimation />
+        </>
       ) : (
         <>
-          <h1>Countdown: {countdown}</h1>
+          <h1>Landing Countdown: {countdown}</h1>
           <button onClick={handleReset}>Reset</button>
         </>
       )}
